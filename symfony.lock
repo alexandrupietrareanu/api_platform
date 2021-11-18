@@ -13,9 +13,6 @@
             "src/Entity/.gitignore"
         ]
     },
-    "composer/package-versions-deprecated": {
-        "version": "1.11.99.4"
-    },
     "doctrine/annotations": {
         "version": "1.13",
         "recipe": {
@@ -147,6 +144,9 @@
     "symfony/asset": {
         "version": "v5.3.4"
     },
+    "symfony/browser-kit": {
+        "version": "v5.3.4"
+    },
     "symfony/cache": {
         "version": "v5.3.10"
     },
@@ -176,6 +176,9 @@
     },
     "symfony/doctrine-bridge": {
         "version": "v5.3.8"
+    },
+    "symfony/dom-crawler": {
+        "version": "v5.3.7"
     },
     "symfony/dotenv": {
         "version": "v5.3.10"
@@ -369,6 +372,20 @@
     },
     "symfony/web-link": {
         "version": "v5.3.4"
+    },
+    "symfony/web-profiler-bundle": {
+        "version": "5.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "6bdfa1a95f6b2e677ab985cd1af2eae35d62e0f6"
+        },
+        "files": [
+            "config/packages/dev/web_profiler.yaml",
+            "config/packages/test/web_profiler.yaml",
+            "config/routes/dev/web_profiler.yaml"
+        ]
     },
     "symfony/yaml": {
         "version": "v5.3.6"
